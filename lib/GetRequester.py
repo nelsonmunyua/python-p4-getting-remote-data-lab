@@ -2,6 +2,7 @@ import requests
 import json
 
 class GetRequester:
+    # lab complete
 
     def __init__(self, url):
         self.url = url
@@ -13,3 +14,4 @@ class GetRequester:
 
     def load_json(self):
         return json.loads(self.get_response_body())
+    
